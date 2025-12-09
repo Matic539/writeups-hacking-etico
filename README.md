@@ -5,7 +5,9 @@ Este repositorio contiene mis writeups personales de laboratorios, máquinas vul
 
 ## 📚 Contenido
 
-- [Docker Lab 01 (FirstHacking)](docker-lab-01.md)
+- [Docker Lab 01 (FirstHacking)](DockerLabs/muy_facil/FirstHacking.md)
+- [Docker Lab 03 (Trust)](DockerLabs/muy_facil/Trust.md)
+- [Docker Lab 04 (BreakMySSH)](DockerLabs/muy_facil/BreakMySSH.md)
 
 ## ⚠️ Disclaimer
 Todo el contenido aquí compartido está orientado a **fines educativos**.  
