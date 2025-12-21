@@ -10,6 +10,7 @@ Este repositorio contiene mis writeups personales de laboratorios, máquinas vul
 - [Docker Lab 03 (BreakMySSH)](DockerLabs/muy_facil/BreakMySSH.md)
 - [Docker Lab 04 (HedgeHog)](DockerLabs/muy_facil/HedgeHog.md)
 - [Docker Lab 05 (BorazuwarahCTF)](DockerLabs/muy_facil/BorazuwarahCTF.md)
+- [Docker Lab 06 (Vacaciones)](DockerLabs/muy_facil/Vacaciones.md)
 
 ## ⚠️ Disclaimer
 Todo el contenido aquí compartido está orientado a **fines educativos**.  
