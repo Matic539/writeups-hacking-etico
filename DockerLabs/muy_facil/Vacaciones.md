@@ -11,8 +11,7 @@
 - **Dirección IP:** `172.17.0.2`  
 - **Objetivo:** Enumerar los servicios expuestos, obtener acceso inicial y escalar privilegios hasta comprometer completamente la máquina.
 
-**Enfoque de la máquina (2-3 líneas):**  
-(Ej: Enumeración web → obtención de credenciales → acceso por SSH → escalada por sudo/SGID/SUID/crontab, etc.)
+La máquina Vacaciones se centra en la enumeración web y de usuarios, seguida de reutilización de credenciales y una mala configuración de sudo que permite escalar privilegios hasta root mediante GTFOBins.
 
 ---
 
